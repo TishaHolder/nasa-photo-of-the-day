@@ -30,7 +30,7 @@ function PhotoCardInfo (props) {
 
     return (       
 
-    <div className = "photo-map-div">
+    <>
 
         {/*if photoCardInfo does not contain any information, a div with "loading..." is dispayed on the screen */}
         { photoCardInfo ?
@@ -44,7 +44,7 @@ function PhotoCardInfo (props) {
         
         }                    
 
-    </div> 
+    </> 
         
     );
 

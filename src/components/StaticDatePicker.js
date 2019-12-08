@@ -43,15 +43,13 @@ const StaticDatePicker = () => {
         autoOk
         variant="inline"
         inputVariant="outlined"
-        label="Select A Date"        
+        label="Select A Previous Date"        
         value={date}
         InputAdornmentProps={{ position: "start" }}
         onChange={handleChange}
       />
 
-  </MuiPickersUtilsProvider>
-
-    
+  </MuiPickersUtilsProvider>    
 
     </PhotoAndCalendar>
 

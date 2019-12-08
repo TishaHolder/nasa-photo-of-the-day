@@ -16,17 +16,15 @@ function PhotoCard (props) {
         <InnerContainer>  
             <Segment raised>
 
-            <PhotoOfTheDay>  
-
-                
+            <PhotoOfTheDay>              
 
                 <PictureTitle>{props.title}</PictureTitle>   
 
-                <PhotoAndCalendar>                           
+                {/*<PhotoAndCalendar>           */}                
                 
-                    <Image alt = "nasa image of the day" src = {props.url}/>    
+                    <Image alt = "nasa image of the day" src = {props.url} height = "400px" width = "100%" />    
 
-                </PhotoAndCalendar>              
+                {/*</PhotoAndCalendar>     */}         
 
             </PhotoOfTheDay>
 
